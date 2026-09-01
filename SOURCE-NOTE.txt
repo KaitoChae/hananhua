@@ -1,1 +1,0 @@
-Base structure and styling were matched to the original V9 public website. Original hero photos, departure gallery, journey departure image, director section, contact, three original program cards, collaboration cards, and V9 animation system are retained. Only the internship module, 3+4 facility gallery, and mobile text-fit fixes were added.
