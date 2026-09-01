@@ -14,12 +14,11 @@
   <link rel="preload" as="image" href="https://kaitochae.github.io/hananhua/assets/departure-2026-01.webp" fetchpriority="high">
   <link rel="preload" as="image" href="https://kaitochae.github.io/hananhua/assets/departure-2026-05.webp" fetchpriority="high">
   <link rel="preload" as="image" href="assets/taiwan-partner-map-clean-v28.png">
-  <!-- Original V9 stylesheet: preserved -->
-  <link rel="stylesheet" href="https://kaitochae.github.io/hananhua/styles-v9.css?v=9">
-  <!-- Additions/fixes only -->
-  <link rel="stylesheet" href="styles-v25-additions.css?v=29">
+  <!-- V30: all critical styles are local, so GitHub Pages does not depend on a missing remote CSS file. -->
+  <link rel="stylesheet" href="./styles-v30-base.css?v=30">
+  <link rel="stylesheet" href="./styles-v25-additions.css?v=30">
 </head>
-<body data-build="29">
+<body data-build="30">
   <div class="progress" aria-hidden="true"><span></span></div>
   <a class="skip-link" href="#main" data-i18n="access.skip">Lewati ke isi utama</a>
 
@@ -714,10 +713,10 @@
   })();
   </script>
 
-  <!-- Original language + animation scripts are preserved -->
-  <script src="https://kaitochae.github.io/hananhua/i18n-v9.js?v=9"></script>
-  <script src="i18n-v25-additions.js?v=29"></script>
-  <script src="i18n-v29-world.js?v=29"></script>
-  <script src="https://kaitochae.github.io/hananhua/script-v9.js?v=9"></script>
+  <!-- V30: core language + UI scripts are local for reliable GitHub Pages deployment. -->
+  <script src="./i18n-core-v30.js?v=30"></script>
+  <script src="./i18n-v25-additions.js?v=30"></script>
+  <script src="./i18n-v29-world.js?v=30"></script>
+  <script src="./site-v30.js?v=30"></script>
 </body>
 </html>
